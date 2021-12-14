@@ -35,8 +35,10 @@
         margin: 20px auto;
     }
     a{
+        text-align: center;
         text-decoration: none;
         border: 1px solid rgb(19, 18, 18);
+        background: linear-gradient(to right, rgba(30, 80, 146, 0.452),rgb(255, 233, 233));
         border-radius: 5px;
         margin: 0px 10px;
         padding: 5px;
@@ -49,6 +51,21 @@
         padding: 10px;
     }   /* Mouse over link */
     a:active {color:#0000FF;} 
+    @media (max-width: 700px) {
+        body{
+            background: linear-gradient(to right, rgba(77, 4, 77, 0.664),rgba(32, 4, 48, 0.575),rgba(53, 6, 6, 0.507),black);
+        }
+        .box{
+            width: 600px;
+            margin: auto;
+            flex-direction: column;
+        }
+        a{
+            width: 400px;
+            margin: 5px auto;
+            border-radius: 10px;
+        }
+    }
     </style>
     <link rel="icon" href="https://freepngimg.com/save/27238-cool-designs-transparent/600x631">
 </head>
